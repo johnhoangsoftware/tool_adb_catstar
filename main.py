@@ -47,10 +47,11 @@ def auto_start_up(account, password):
     #--------------------------LOGOUT------------------------------------
     # Click button profile 483.1,909.3
     adb_click(483.1,909.3)
-    time.sleep(3)
+    time.sleep(1)
     # Cuộn chuột
     #TODO:
     adb_swipe(281.4,800,281.4,197.8,1000)
+    time.sleep(1)
 
     # Click to setting button 168.4,819.2
     adb_click(168.4,819.2)
